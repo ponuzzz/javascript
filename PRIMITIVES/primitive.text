@@ -1,0 +1,14 @@
+
+1. primitive
+  a string='', " "
+  b number= 678, 980.0
+  c boolean - true/false
+  d null = absence of value
+  e.undefined= variable that has been declared but not assigned a value
+  f.symbol- unique immutable values , used with object property 
+   g.bigInt - work with very large number
+  
+
+2.non-primitive
+
+   .
