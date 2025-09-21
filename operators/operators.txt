@@ -1,0 +1,8 @@
+
+operators are symbols or keywords used perform operation on variable and values
+
+1.arithemtic
+2.assignment
+3.comparison
+4.logical
+5.ternary

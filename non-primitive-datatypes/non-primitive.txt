@@ -1,0 +1,8 @@
+
+referenced types
+multabled-changes possible
+hold multipled values
+eg
+array-multipled values stored in single values,only  stored same types
+
+object
