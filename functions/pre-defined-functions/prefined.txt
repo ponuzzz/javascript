@@ -1,0 +1,12 @@
+
+build in-functions or nagtive methods 
+it allready provided by js
+
+featues
+1.time saving
+2.increase code readablity
+3.optmisized  and reavailable
+
+string methods or functions
+maths functions
+date functions

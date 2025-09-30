@@ -1,0 +1,15 @@
+//arrow functions are shortest synatics for creating for js,introduced in ex-6(exgma-eu)
+//not hoisting
+ex
+1. regular function
+
+function add (a,b){
+    return a+b;
+
+}
+add(1,2)
+
+
+2. arrow function
+const add = (a,b) => a+b;
+add(1,2)

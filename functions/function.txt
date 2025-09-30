@@ -1,0 +1,17 @@
+//function -  are block of code designed to perform a particular task.
+
+different ways
+     |||
+1.function declaration -
+2. function expression -
+3.  arrow function -
+4. function callback -
+5. function annonmyns -
+6. function iife-immetdiate invocaked function
+
+bulid function/predefined function- are function that are all ready provided by js.
+1.string function or function 
+2. .date function
+3. math function
+
+
