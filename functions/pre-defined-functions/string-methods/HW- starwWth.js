@@ -1,5 +1,5 @@
 
-const text = "apple, banana, orange, grapes";
-const  fruits = text.startsWith("orange");
+const text = "slice, vales, index, concate";
+const  fruits = text.startsWith("index");
 console.log(fruits);
 

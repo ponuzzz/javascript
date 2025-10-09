@@ -1,0 +1,3 @@
+rest parameters 
+synatics-(...)
+allows to a expected infinite number of arguments

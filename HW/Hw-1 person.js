@@ -2,6 +2,6 @@
 const person ={
     name : "sandra" ,
     age : 21,
-    city : "kenchira"
-};
+    city : "valavayal"
+}
 console.log(person);

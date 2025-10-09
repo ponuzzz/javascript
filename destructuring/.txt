@@ -1,0 +1,1 @@
+destructing assignments is js future that allows you to unpacket values from array or properties from objects into separate variables.

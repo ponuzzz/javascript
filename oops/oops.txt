@@ -1,0 +1,9 @@
+object orientated programming.
+thing of oops has makeing on (called objects) (with properties and actions)
+key class-a blue print creating an object
+object- an instances of a class.
+encapaluses-bulding data and methods that operators the data in one unit(wraped the data)
+inheratances-one class can inherantiance propeties and methods an methods.(by using enteneds keyword)
+polimoriasons-the ability to use methods to differences ways.
+adstraction-hideing complex implements and provideing neccessary details.
+

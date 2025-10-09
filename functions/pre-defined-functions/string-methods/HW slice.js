@@ -1,4 +1,4 @@
-const text = "hello guys!!!.."
-const  texts = text.slice(5,13);
+const text = "javascript html css !!!.."
+const  texts = text.slice(4,11);
 console.log(texts);
 
