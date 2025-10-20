@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     
+    <div id="box" style="width: 100px;  height: 150px; background-color: rgb(90, 46, 148);"></div>
+    <script>
+        document.getElementById("box").addEventListener("mousemove", function(){
+            this.style.background="orange";
+            console.log("mouse button pressed up on box");
+            
+        })
+    </script>
+
+</body>
+</html>

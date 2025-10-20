@@ -1,0 +1,13 @@
+
+action or occurains that happpens to the browser
+example|
+page loaded,button click,type input field,web loaded,mouse hover
+
+eventlistener-> is function in js. that wait for events to occuring and then excuted code in block of code
+|
+use - > to make website interactive,  to separate html and css , dynamic add and remove behaviours during run time, 
+
+event handling -> event handling means waiting js code that will run when a specfic events occurs.
+|
+different 
+

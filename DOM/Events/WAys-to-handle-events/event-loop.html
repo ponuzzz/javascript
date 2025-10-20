@@ -1,0 +1,31 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> hello  JavaScript </title>
+</head>
+<body>
+  <h1>Open the Console to See the Output</h1>
+  <script>
+    console.log("1. Script start");
+
+    setTimeout(() => {
+      console.log("5. setTimeout callback"); // macrotask
+    }, 0);
+
+    Promise.resolve().then(() => {
+      console.log("3. Promise then callback"); // microtask
+    });
+
+    console.log("2. Script end");
+  </script>
+</body>
+</html>
+
+
+

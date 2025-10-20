@@ -1,0 +1,6 @@
+(document object model)  .programing interfaces(set of tools,methods and rules) that allows a software to interactive with some else such are system ,services or document .
+
+provided by broweser.
+used for-> it allows js, interactive with and manipultated the structure style and content of object
+
+

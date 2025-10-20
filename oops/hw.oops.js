@@ -21,7 +21,7 @@ class Car extends Vehicles {
     }
     //override speak method(polyformism)
     speak() {
-        console.log(` the ${this.make}  car  is ${this.model}  with make, and its color is  ${this.color} color car and it price ${this.price}`);
+        console.log(` the ${this.make}  car  is ${this.model}  with make, and its color is  ${this.color}  and it price ${this.price}`);
 
     }
 }

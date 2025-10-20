@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">clickme</button>
+
+    <script>
+        let button = document.getElementById("btn");
+
+        // Click events
+        button.addEventListener('click', function(){
+            alert("button clicked using addEventListener");
+        });
+
+        button.addEventListener('click', function(){
+            console.log("another function for same btn");
+        });
+
+        button.addEventListener('click', function(){
+            button.style.background = 'green';
+            button.style.border = 'none';
+            button.style.color = 'white';
+        });
+
+        // Mouse hover events
+        button.addEventListener('mouseover', function() {
+            button.style.background = 'lightblue';
+            button.style.color = 'black';
+            button.style.cursor = 'pointer';
+        });
+
+        button.addEventListener('mouseout', function() {
+            button.style.background = ''; // Reset to original (or use specific color)
+            button.style.color = '';
+        });
+    </script>
+</body>
+</html>
