@@ -1,0 +1,149 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: gray;
+}
+
+/*  Header  */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.nav .btn {
+  background: #1e3a8a;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 4px;
+}
+.content{
+  
+  background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 1rem;
+  margin-bottom: 30px;
+
+}
+.btn {
+  background-color:white;
+  color:black;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Services Section */
+.services {
+  padding: 60px 20px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.service-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card i {
+  font-size: 2.5rem;
+  color: #0a4d8c;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar nav ul {
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0;
+  }
+
+  .content h1 {
+    font-size: 2rem;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 60px 10px;
+  }
+
+  .content h1 {
+    font-size: 1.5rem;
+  }
+
+  .service-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <audio id="audioTimeupdate" controls>
+        <source src="../multimedia-events/WhatsApp Audio 2025-10-23 at 1.56.15 AM.ogg" type="audio/mpeg">
+
+
+    </audio>
+
+    <p id="timeoutput"> current time :0</p>
+    <script>
+        const  audio = document.getElementById("audioTimeupdate");
+        const output =document.getElementById("timeoutput");
+
+        audio.addEventListener("timeupdate",() =>{
+        output.textContent ='current time :' + audio.currentTime.toFixed(2);
+
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+  <h2>Error Event Example</h2>
+  <button onclick="triggerError()">Trigger Error</button>
+  <p id="msg"></p>
+
+  <script>
+    window.addEventListener("error", (event) => {
+      document.getElementById("msg").textContent =
+        "❌ Error caught: " + event.message;
+    });
+
+    function triggerError() {
+      notDefinedFunction(); // This will cause an error
+    }
+  </script>
+</body>
+
+</html>

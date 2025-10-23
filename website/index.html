@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive App Landing Page</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+
+  <body>
+    <header class="header">
+      <div class="logo">LOGIN</div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#" class="btn">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="content">
+      <div class="box-content">
+        <h1>AI-Powered Mobile and <br>Web APP Development<br> Right the First Time.</h1>
+        <p>We integrate artificial intelligence to make your apps smarter,faster,and more intuitive.</p>
+        <button onclick="events()">Get Started  </button>
+        <p id="status"></p>
+      </div>
+      </div>
+    </section>
+
+    
+    <script>
+     function events() {
+        alert("click here!!!");
+      }
+      window.addEventListener('offline', function () {
+        alert('You are offline!');
+        document.getElementById('status').textContent = 'Status: Offline';
+      });
+
+      window.addEventListener("online", () => {
+        alert("you are back online");
+        document.getElementById("status").textContent = 'Status: Online';
+      });
+</script>
+</body>
+</html>

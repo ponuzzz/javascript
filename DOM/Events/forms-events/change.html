@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <label for="fruits">choose fruits :</label>
+    <select id="fruits">
+        <option value="apple">apple</option>
+         <option value="orange">orange</option>
+          <option value="grapes">Grapes</option>
+    </select>
+    <p id="output"></p>
+    <script>
+        const input = document.getElementById("fruits");
+        const output = document.getElementById("output");
+
+
+        fruits.addEventListener('change', ()=>{
+            if(fruits.value){
+                 output.textContent ="you selected : "+fruits.value;
+                 output.style.color="red";
+           }
+            else{
+                output.textContent="";
+            }
+        });
+
+       
+    </script>
+</body>
+</html>
